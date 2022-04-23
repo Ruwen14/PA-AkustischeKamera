@@ -1,0 +1,13 @@
+function audDev = getAudioDeviceReader(params)
+    if isLocked(audioDeviceReader)
+        release(audioDeviceReader)
+    end
+
+    audDev = audioDeviceReader('Driver','ASIO','Device',...
+    'MOTU Pro Audio','NumChannels',params.NumberChannels,'SamplesPerFrame',...
+    params.SamplesPerFrame,'SampleRate', params.SampleRate,'BitDepth',...
+    '24-bit integer','ChannelMappingSource','Property','ChannelMapping',...
+    params.ChannelMapping);              % Es werden alle spezifischen Einstellungen eingestellt
+    
+    setup(audDev)  
+end

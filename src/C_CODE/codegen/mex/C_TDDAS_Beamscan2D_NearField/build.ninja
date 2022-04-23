@@ -1,0 +1,52 @@
+# CompilerName=mingw64
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root/build/win64
+matlabdir = C:/Program Files/MATLAB/R2021b
+startdir = C:/Users/ru121koh/Desktop/PA-akustische-kamera/src/C_CODE
+
+# Toolchain information
+cc = C:\ProgramData\MATLAB\SupportPackages\R2021b\3P.instrset\mingw_w64.instrset\bin\gcc
+cxx = C:\ProgramData\MATLAB\SupportPackages\R2021b\3P.instrset\mingw_w64.instrset\bin\g++
+linker = C:\ProgramData\MATLAB\SupportPackages\R2021b\3P.instrset\mingw_w64.instrset\bin\gcc
+linkerxx = C:\ProgramData\MATLAB\SupportPackages\R2021b\3P.instrset\mingw_w64.instrset\bin\g++
+
+cflags =  -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I "C:\Users\ru121koh\Desktop\PA-akustische-kamera\src\C_CODE\codegen\mex\C_TDDAS_Beamscan2D_NearField" -I "C:\Users\ru121koh\Desktop\PA-akustische-kamera\src\C_CODE" -I "C:\Users\ru121koh\Desktop\PA-akustische-kamera\src\C_CODE\codegen\mex\C_TDDAS_Beamscan2D_NearField\interface" -I "C:\Program Files\MATLAB\R2021b\extern\include" -I "." -DMODEL=C_TDDAS_Beamscan2D_NearField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp 
+
+cxxflags =  -c -fexceptions -fno-omit-frame-pointer -std=c++11 -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I "C:\Users\ru121koh\Desktop\PA-akustische-kamera\src\C_CODE\codegen\mex\C_TDDAS_Beamscan2D_NearField" -I "C:\Users\ru121koh\Desktop\PA-akustische-kamera\src\C_CODE" -I "C:\Users\ru121koh\Desktop\PA-akustische-kamera\src\C_CODE\codegen\mex\C_TDDAS_Beamscan2D_NearField\interface" -I "C:\Program Files\MATLAB\R2021b\extern\include" -I "." -DMODEL=C_TDDAS_Beamscan2D_NearField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp 
+
+ldflags =  -m64 -Wl,--no-undefined -shared -static -L"C:\Program Files\MATLAB\R2021b\extern\lib\win64\mingw64" -llibmx -llibmex -llibmat -lm -llibmwlapack -llibmwblas -o "C_TDDAS_Beamscan2D_NearField_mex.mexw64" -llibemlrt -llibcovrt -llibut -llibmwmathutil -fopenmp -Wl,--version-script,C_TDDAS_Beamscan2D_NearField_mex.map
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in -o $out
+
+rule cxx
+    command = $cxx $cxxflags $in -o $out
+
+rule link
+    command = $linker @$out.rsp $ldflags
+    rspfile = $out.rsp
+    rspfile_content = $in
+
+rule linkxx
+    command = $linkerxx $in $ldflags
+
+# Build
+build $builddir/C_TDDAS_Beamscan2D_NearField_data.o : cc $root/C_TDDAS_Beamscan2D_NearField_data.c
+build $builddir/rt_nonfinite.o : cc $root/rt_nonfinite.c
+build $builddir/C_TDDAS_Beamscan2D_NearField_initialize.o : cc $root/C_TDDAS_Beamscan2D_NearField_initialize.c
+build $builddir/C_TDDAS_Beamscan2D_NearField_terminate.o : cc $root/C_TDDAS_Beamscan2D_NearField_terminate.c
+build $builddir/C_TDDAS_Beamscan2D_NearField.o : cc $root/C_TDDAS_Beamscan2D_NearField.c
+build $builddir/_coder_C_TDDAS_Beamscan2D_NearField_api.o : cc $root/interface/_coder_C_TDDAS_Beamscan2D_NearField_api.c
+build $builddir/_coder_C_TDDAS_Beamscan2D_NearField_mex.o : cc $root/interface/_coder_C_TDDAS_Beamscan2D_NearField_mex.c
+build $builddir/sumMatrixIncludeNaN.o : cc $root/sumMatrixIncludeNaN.c
+build $builddir/C_TDDAS_Beamscan2D_NearField_mexutil.o : cc $root/C_TDDAS_Beamscan2D_NearField_mexutil.c
+build $builddir/_coder_C_TDDAS_Beamscan2D_NearField_info.o : cc $root/interface/_coder_C_TDDAS_Beamscan2D_NearField_info.c
+build $builddir/c_mexapi_version.o : cc $matlabdir/extern/version/c_mexapi_version.c
+
+# Link
+build $root\C_TDDAS_Beamscan2D_NearField_mex.mexw64 : link $builddir/C_TDDAS_Beamscan2D_NearField_data.o $builddir/rt_nonfinite.o $builddir/C_TDDAS_Beamscan2D_NearField_initialize.o $builddir/C_TDDAS_Beamscan2D_NearField_terminate.o $builddir/C_TDDAS_Beamscan2D_NearField.o $builddir/_coder_C_TDDAS_Beamscan2D_NearField_api.o $builddir/_coder_C_TDDAS_Beamscan2D_NearField_mex.o $builddir/sumMatrixIncludeNaN.o $builddir/C_TDDAS_Beamscan2D_NearField_mexutil.o $builddir/_coder_C_TDDAS_Beamscan2D_NearField_info.o $builddir/c_mexapi_version.o 

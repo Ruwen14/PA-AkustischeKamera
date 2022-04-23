@@ -1,0 +1,68 @@
+[
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_NearField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  C_TDDAS_Beamscan2D_NearField_data.c -o build/win64/C_TDDAS_Beamscan2D_NearField_data.o",
+    "file": "C_TDDAS_Beamscan2D_NearField_data.c",
+    "output": "build/win64/C_TDDAS_Beamscan2D_NearField_data.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_NearField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  rt_nonfinite.c -o build/win64/rt_nonfinite.o",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_NearField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  C_TDDAS_Beamscan2D_NearField_initialize.c -o build/win64/C_TDDAS_Beamscan2D_NearField_initialize.o",
+    "file": "C_TDDAS_Beamscan2D_NearField_initialize.c",
+    "output": "build/win64/C_TDDAS_Beamscan2D_NearField_initialize.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_NearField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  C_TDDAS_Beamscan2D_NearField_terminate.c -o build/win64/C_TDDAS_Beamscan2D_NearField_terminate.o",
+    "file": "C_TDDAS_Beamscan2D_NearField_terminate.c",
+    "output": "build/win64/C_TDDAS_Beamscan2D_NearField_terminate.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_NearField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  C_TDDAS_Beamscan2D_NearField.c -o build/win64/C_TDDAS_Beamscan2D_NearField.o",
+    "file": "C_TDDAS_Beamscan2D_NearField.c",
+    "output": "build/win64/C_TDDAS_Beamscan2D_NearField.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_NearField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  interface/_coder_C_TDDAS_Beamscan2D_NearField_api.c -o build/win64/_coder_C_TDDAS_Beamscan2D_NearField_api.o",
+    "file": "interface/_coder_C_TDDAS_Beamscan2D_NearField_api.c",
+    "output": "build/win64/_coder_C_TDDAS_Beamscan2D_NearField_api.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_NearField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  interface/_coder_C_TDDAS_Beamscan2D_NearField_mex.c -o build/win64/_coder_C_TDDAS_Beamscan2D_NearField_mex.o",
+    "file": "interface/_coder_C_TDDAS_Beamscan2D_NearField_mex.c",
+    "output": "build/win64/_coder_C_TDDAS_Beamscan2D_NearField_mex.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_NearField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  sumMatrixIncludeNaN.c -o build/win64/sumMatrixIncludeNaN.o",
+    "file": "sumMatrixIncludeNaN.c",
+    "output": "build/win64/sumMatrixIncludeNaN.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_NearField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  C_TDDAS_Beamscan2D_NearField_mexutil.c -o build/win64/C_TDDAS_Beamscan2D_NearField_mexutil.o",
+    "file": "C_TDDAS_Beamscan2D_NearField_mexutil.c",
+    "output": "build/win64/C_TDDAS_Beamscan2D_NearField_mexutil.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_NearField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  interface/_coder_C_TDDAS_Beamscan2D_NearField_info.c -o build/win64/_coder_C_TDDAS_Beamscan2D_NearField_info.o",
+    "file": "interface/_coder_C_TDDAS_Beamscan2D_NearField_info.c",
+    "output": "build/win64/_coder_C_TDDAS_Beamscan2D_NearField_info.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\src\\C_CODE\\codegen\\mex\\C_TDDAS_Beamscan2D_NearField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_NearField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  \"C:/Program Files/MATLAB/R2021b/extern/version/c_mexapi_version.c\" -o build/win64/c_mexapi_version.o",
+    "file": "C:/Program Files/MATLAB/R2021b/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.o"
+  }
+]

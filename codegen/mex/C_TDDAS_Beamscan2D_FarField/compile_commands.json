@@ -1,0 +1,80 @@
+[
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_FarField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  C_TDDAS_Beamscan2D_FarField_data.c -o build/win64/C_TDDAS_Beamscan2D_FarField_data.o",
+    "file": "C_TDDAS_Beamscan2D_FarField_data.c",
+    "output": "build/win64/C_TDDAS_Beamscan2D_FarField_data.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_FarField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  rt_nonfinite.c -o build/win64/rt_nonfinite.o",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_FarField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  C_TDDAS_Beamscan2D_FarField_initialize.c -o build/win64/C_TDDAS_Beamscan2D_FarField_initialize.o",
+    "file": "C_TDDAS_Beamscan2D_FarField_initialize.c",
+    "output": "build/win64/C_TDDAS_Beamscan2D_FarField_initialize.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_FarField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  C_TDDAS_Beamscan2D_FarField_terminate.c -o build/win64/C_TDDAS_Beamscan2D_FarField_terminate.o",
+    "file": "C_TDDAS_Beamscan2D_FarField_terminate.c",
+    "output": "build/win64/C_TDDAS_Beamscan2D_FarField_terminate.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_FarField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  C_TDDAS_Beamscan2D_FarField.c -o build/win64/C_TDDAS_Beamscan2D_FarField.o",
+    "file": "C_TDDAS_Beamscan2D_FarField.c",
+    "output": "build/win64/C_TDDAS_Beamscan2D_FarField.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_FarField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  interface/_coder_C_TDDAS_Beamscan2D_FarField_api.c -o build/win64/_coder_C_TDDAS_Beamscan2D_FarField_api.o",
+    "file": "interface/_coder_C_TDDAS_Beamscan2D_FarField_api.c",
+    "output": "build/win64/_coder_C_TDDAS_Beamscan2D_FarField_api.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_FarField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  interface/_coder_C_TDDAS_Beamscan2D_FarField_mex.c -o build/win64/_coder_C_TDDAS_Beamscan2D_FarField_mex.o",
+    "file": "interface/_coder_C_TDDAS_Beamscan2D_FarField_mex.c",
+    "output": "build/win64/_coder_C_TDDAS_Beamscan2D_FarField_mex.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_FarField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  sumMatrixIncludeNaN.c -o build/win64/sumMatrixIncludeNaN.o",
+    "file": "sumMatrixIncludeNaN.c",
+    "output": "build/win64/sumMatrixIncludeNaN.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_FarField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  cosd.c -o build/win64/cosd.o",
+    "file": "cosd.c",
+    "output": "build/win64/cosd.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_FarField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  sind.c -o build/win64/sind.o",
+    "file": "sind.c",
+    "output": "build/win64/sind.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_FarField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  C_TDDAS_Beamscan2D_FarField_mexutil.c -o build/win64/C_TDDAS_Beamscan2D_FarField_mexutil.o",
+    "file": "C_TDDAS_Beamscan2D_FarField_mexutil.c",
+    "output": "build/win64/C_TDDAS_Beamscan2D_FarField_mexutil.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_FarField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  interface/_coder_C_TDDAS_Beamscan2D_FarField_info.c -o build/win64/_coder_C_TDDAS_Beamscan2D_FarField_info.o",
+    "file": "interface/_coder_C_TDDAS_Beamscan2D_FarField_info.c",
+    "output": "build/win64/_coder_C_TDDAS_Beamscan2D_FarField_info.o"
+  },
+  {
+    "directory": "C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2021b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\" -I \"C:\\Users\\ru121koh\\Desktop\\PA-akustische-kamera\\codegen\\mex\\C_TDDAS_Beamscan2D_FarField\\interface\" -I \"C:\\Program Files\\MATLAB\\R2021b\\extern\\include\" -I \".\" -DMODEL=C_TDDAS_Beamscan2D_FarField_mex -D__USE_MINGW_ANSI_STDIO=1 -fopenmp  \"C:/Program Files/MATLAB/R2021b/extern/version/c_mexapi_version.c\" -o build/win64/c_mexapi_version.o",
+    "file": "C:/Program Files/MATLAB/R2021b/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.o"
+  }
+]

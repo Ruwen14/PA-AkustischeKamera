@@ -3,6 +3,9 @@ vorarbeit/
 *.avi
 *.mp4
 
+!Medien1.mp4
+!Medien2.mp4
+
 LOOK/*
 vorarbeit/
 beamforming-examples/
